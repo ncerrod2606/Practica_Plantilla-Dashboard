@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- Sidebar -->
+    
     <div class="sidebar">
         <h2>NCR</h2>
         <div class="search-box">
@@ -19,7 +19,7 @@
             <i class="fas fa-search"></i>
         </div>
 
-        <!-- Botón hamburguesa -->
+        
         <div class="hamburger">
             <span></span>
             <span></span>
@@ -35,13 +35,13 @@
         </ul>
     </div>
 
-    <!-- Contenido principal -->
+    
     <div class="main-content">
         <header>
             <h1>Dashboard</h1>
         </header>
 
-        <!-- Tarjetas de estadísticas -->
+        
         <div class="grid">
             <div class="card shadow-sm">
                 <h3>Usuarios</h3>
@@ -61,13 +61,13 @@
             </div>
         </div>
 
-        <!-- Gráfica de línea -->
+       
         <div class="card shadow-sm">
             <h2>Ventas Mensuales</h2>
             <canvas id="ventasChart"></canvas>
         </div>
 
-        <!-- Tabla de ejemplo -->
+        
         <div class="card shadow-sm">
             <h2>Usuarios Registrados</h2>
             <table>
@@ -99,7 +99,7 @@
         </div>
     </div>
 
-    <!-- Script Chart.js -->
+ 
     <script>
         const ctx = document.getElementById('ventasChart').getContext('2d');
 
